@@ -1,0 +1,17 @@
+p {
+  font-family: Lato;
+}
+table{
+  background-color: rgb(240, 252, 248);
+  margin: 1em;
+  text-align: center;
+  /* cursor: pointer; */
+}
+button{
+  background-color: aqua;
+  margin: 1em;
+  cursor: pointer;
+}
+h1{
+  text-align: center;
+}

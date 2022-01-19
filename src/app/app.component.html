@@ -1,0 +1,18 @@
+<h1>Check box</h1>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Done</th>
+    <br />
+  </tr>
+  <tr *ngFor="let aaa of value; let i = index">
+    <td>{{ aaa.id }}</td>
+    <td>{{ aaa.description }}</td>
+    <td>
+      <input type="checkbox" (click)="save(i, $event)" [checked]="aaa.done" />
+    </td>
+  </tr>
+</table>
+<br />
+<button (click)="btn()">{{ show ? 'Hide' : 'show' }} complete task</button>
